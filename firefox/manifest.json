@@ -1,0 +1,17 @@
+{
+  "name": "Ipynb Viewer",
+  "description": "Opens .ipynb files in current jupyter process",
+  "version": "1.0",
+  "manifest_version": 2,
+
+  "icons": {
+  "48": "icon48.png"
+  },
+
+  "background": {"scripts":["background.js"]},
+  "permissions": [
+    "webRequest",
+    "<all_urls>",
+    "webRequestBlocking"
+  ]
+}
